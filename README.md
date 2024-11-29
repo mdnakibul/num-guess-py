@@ -29,3 +29,29 @@ This project is a simple **Number Guessing Game** built using **Python** and the
    ```bash
    sudo apt-get install python3-tk
    ```
+
+## Example Game Flow:
+
+- The program generates a random number between 1 and 100.
+- The player enters their guess.
+- The program provides feedback:
+- "Too high" if the guess is above the target number.
+- "Too low" if the guess is below the target number.
+- "Correct!" if the guess matches the generated number.
+
+---
+
+### Steps to Customize
+
+1. Replace `number_guessing_game.py` with the name of your Python script if different.
+2. If you add more features in the future, update the **Future Enhancements** section to reflect those changes
+
+## Future Enhancements
+
+- Add difficulty levels (e.g., easy, medium, hard) with varying ranges for the random number.
+- Include an option to restart the game after the correct number is guessed.
+- Add a timer to track how long it takes to guess the correct number.
+
+## License
+
+This project is for educational purposes. Feel free to use, modify, and share the code.
